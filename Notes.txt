@@ -1,0 +1,9 @@
+1- Transaction: we depend on database transaction to 
+ensure atomicity of booking operations. This guarantees that either
+
+2- the payload is 
+{
+  "eventID": 1,
+  "userID": 101
+}
+
